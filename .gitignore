@@ -5,7 +5,7 @@ custom
 
 .versions
 .idea
-dist
+# dist to allow using my dist folder.
 
 
 cypress/screenshots
