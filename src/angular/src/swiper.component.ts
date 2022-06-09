@@ -55,6 +55,7 @@ import { isPlatformBrowser } from '@angular/common';
   ],
 })
 export class SwiperComponent implements OnInit {
+  @Input() wrapperStyle: { [key: string]: string } = {}
   @Input() enabled: SwiperOptions['enabled'];
   @Input() on: SwiperOptions['on'];
   @Input() direction: SwiperOptions['direction'];
